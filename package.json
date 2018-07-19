@@ -1,0 +1,16 @@
+{
+  "name": "take-a-pic-bot",
+  "version": "1.0.0",
+  "description": "This is a bot. He takes pics.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oligsei/take-a-pic-bot.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oligsei/take-a-pic-bot/issues"
+  },
+  "homepage": "https://github.com/oligsei/take-a-pic-bot#readme"
+}
