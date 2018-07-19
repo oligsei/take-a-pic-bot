@@ -12,5 +12,8 @@
   "bugs": {
     "url": "https://github.com/oligsei/take-a-pic-bot/issues"
   },
-  "homepage": "https://github.com/oligsei/take-a-pic-bot#readme"
+  "homepage": "https://github.com/oligsei/take-a-pic-bot#readme",
+  "devDependencies": {
+    "dotenv": "6.0.0"
+  }
 }
