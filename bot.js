@@ -22,8 +22,10 @@ class Bot {
     }
 
     getPathToPicture() {
-        execSync('raspistill -o f.jpg');
-        return resolve('f.jpg');
+        const filename = 'f.jpg';
+
+        execSync(`raspistill -o ${filename} -ex auto -x none`);
+        return resolve(filename);
     }
 }
 
