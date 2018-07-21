@@ -9,7 +9,7 @@ class Bot {
     }
 
     async initializeBot() {
-        const { username } = await this.telegraf.getMe();
+        const { username } = await this.telegraf.telegram.getMe();
         this.telegraf.options.username = username;
 
         this.bindBotReplies();
