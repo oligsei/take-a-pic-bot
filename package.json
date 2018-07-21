@@ -7,6 +7,9 @@
     "type": "git",
     "url": "git+https://github.com/oligsei/take-a-pic-bot.git"
   },
+  "scripts": {
+    "start": "node -r dotenv/config ./index.js"
+  },
   "author": "",
   "license": "MIT",
   "bugs": {
@@ -15,5 +18,8 @@
   "homepage": "https://github.com/oligsei/take-a-pic-bot#readme",
   "devDependencies": {
     "dotenv": "6.0.0"
+  },
+  "dependencies": {
+    "telegraf": "3.21.2"
   }
 }
