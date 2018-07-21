@@ -8,8 +8,12 @@ class Bot {
         this.initializeBot();
     }
 
-    initializeBot() {
+    async initializeBot() {
+        const { username } = await this.telegraf.getMe();
+        this.telegraf.options.username = username;
+
         this.bindBotReplies();
+
         this.telegraf.startPolling();
     }
 
